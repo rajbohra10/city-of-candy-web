@@ -126,6 +126,7 @@
         $(() => {
             $(document).scroll(() => {
                 var nav = $("#mainNavbar");
+                console.log("hello world1 ")
                 nav.toggleClass("scrolled", $(this).scrollTop() > nav.height());
             });
         });
